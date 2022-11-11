@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoInternetModal test render correctly 1`] = `
+<Modal
+  hardwareAccelerated={false}
+  visible={true}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "height": 1334,
+          "justifyContent": "center",
+          "paddingBottom": 0,
+          "paddingLeft": 18,
+          "paddingRight": 18,
+          "paddingTop": 0,
+        },
+        Object {
+          "backgroundColor": "#00000040",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 10,
+            "height": 250,
+            "justifyContent": "center",
+            "paddingVertical": 12,
+            "width": 300,
+          },
+          undefined,
+        ]
+      }
+      testID="test-isfullscreen"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Poppins-Regular",
+              "fontSize": 16,
+            },
+            Array [
+              Object {
+                "marginBottom": 50,
+                "paddingLeft": 10,
+              },
+              undefined,
+            ],
+          ]
+        }
+        testID="test-nointernet-text"
+      >
+        You do not have an internet connection. 
+Please connect to the internet to continue
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+              "paddingRight": 16,
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "flex-start",
+                  "marginLeft": 16,
+                  "minWidth": 150,
+                  "paddingVertical": 16,
+                },
+                Object {
+                  "minWidth": 100,
+                },
+              ]
+            }
+          >
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#F3705D",
+                      "fontFamily": "Poppins-Regular",
+                      "fontSize": 16,
+                    },
+                  ]
+                }
+              >
+                Try again
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
