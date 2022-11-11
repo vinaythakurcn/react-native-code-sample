@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ColorInput /> Render without failed  1`] = `
+Array [
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FF0000",
+        "borderColor": "#DBDBDB",
+        "borderRadius": 24,
+        "borderWidth": 1.5,
+        "justifyContent": "center",
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginHorizontal": 15,
+          "marginVertical": 4,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "marginHorizontal": 3,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text>
+          <Text
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#3A3F55",
+                  "fontSize": 18,
+                },
+                Object {},
+                Object {
+                  "fontFamily": "wb-icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Poppins-Regular",
+              "fontSize": 16,
+            },
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "Poppins-SemiBold",
+                "paddingHorizontal": 8,
+                "paddingVertical": 8,
+              },
+              false,
+              Object {
+                "color": "#656464",
+              },
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+        testID="button-text"
+      >
+        Pick a color
+      </Text>
+    </View>
+  </View>,
+  <Modal
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    transparent={false}
+    visible={false}
+  />,
+]
+`;
